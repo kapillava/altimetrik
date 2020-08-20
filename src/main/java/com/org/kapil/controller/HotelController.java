@@ -56,7 +56,7 @@ public class HotelController {
 		hotel.setFoods(hotelDetails.getFoods());
 		hotel.setName(hotelDetails.getName());
 		hotel.setLocation(hotelDetails.getName());
-		 Hotel updatedHotel = hotelRepository.save(hotel);
+		Hotel updatedHotel = hotelRepository.save(hotel);
 		return ResponseEntity.ok(updatedHotel);
 	}
 

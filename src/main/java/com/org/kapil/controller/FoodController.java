@@ -57,7 +57,7 @@ public class FoodController {
 		food.setName(foodDetails.getName());
 		food.setPrice(foodDetails.getPrice());
 		food.setQuantity(foodDetails.getQuantity());
-		Food updatedFood = foodRepository.save(food);
+		 Food updatedFood = foodRepository.save(food);
 		return ResponseEntity.ok(updatedFood);
 	}
 
